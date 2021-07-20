@@ -4,15 +4,14 @@ import Escena from "./components/escena/Escena";
 import textHistoria from "./textHistoria.json";
 
 const App = () => {
+  
   return (
     <div className="App">
-        <Escena
-            LiniaText = {textHistoria.map((linia, index) =>
-            <ul key={index}>{linia}</ul>)}
-        />
+
+        {textHistoria.map((linia, index) => <Escena key={index} liniaText={linia}/>)}
+          
     </div>
   );
-  
 }
 
 export default App;
