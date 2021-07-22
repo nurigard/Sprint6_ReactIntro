@@ -1,5 +1,6 @@
-//import React from 'react';
+import React from 'react';
+import {DivliniaText} from "./Escena.styled";
 
-const Escena = (props) => <div> {props.liniaText} </div> 
+const Escena = (props) => <DivliniaText> {props.liniaText} </DivliniaText> 
 
 export default Escena;
