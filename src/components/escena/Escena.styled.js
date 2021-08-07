@@ -6,10 +6,11 @@ export const DivliniaText = styled.div `
        justify-content: center;
        border-radius: 50px ;
        border-style: solid;
-       margin-left: 3vw;
-       margin-right: 3vw;
-       margin-bottom: 2vh;
-       margin-top: 2vh;
-       padding: 1rem;
+       margin-left: 2rem;
+       margin-right: 2rem;
+       margin-bottom: 1rem;
+       margin-top: 1rem;
+       padding: 0.5rem;
+       background-color: ${(props) => (props.isRight ? "pink" : "white")};
 
-`
+`;
